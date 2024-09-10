@@ -42,14 +42,14 @@ Created: 10.09.2024, Vienna at TSH.
 
 ## Todo:
 
-- [ ] figure out how to randomize colors using Hexcode
+- [x] figure out how to randomize colors using Hexcode
 
-- [ ] figure out how to show 31x9 grid (show the color code in the middle)
+- [x] figure out how to show 31x9 grid (show the color code in the middle)
 
-- [ ] figure out how to combine the above two items
+- [x] figure out how to combine the above two items
 
-- [ ] let user input a color
+- [x] let user input a color
 
-- [ ] let user input luminosity
+- [x] let user input luminosity
 
-- [ ] generate color based on choices
+- [x] generate color based on choices
