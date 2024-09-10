@@ -2,15 +2,15 @@ import { argv } from 'node:process';
 import chalk from 'chalk';
 import randomColor from 'randomcolor';
 
-//packages imported from npmjs
-let hue = argv[2];
-let luminosity = argv[3];
-let color = randomColor({ hue: `${hue}`, luminosity: `${luminosity}` }); //a hex code for an attractive color
+// packages imported from npmjs
+const hue = argv[2];
+const luminosity = argv[3];
+const color = randomColor({ hue: `${hue}`, luminosity: `${luminosity}` }); // a hex code for an attractive color
 
-function colorSquare(color) {
-  let wholeLine = chalk.hex(color)('#'.repeat(31)); // Whole line of #####
-  let halfLine = chalk.hex(color)('#'.repeat(5)); // Line of ###
-  let space = ' '.repeat(7); // Empty spaces
+function colorSquare() {
+  const wholeLine = chalk.hex(color)('#'.repeat(31)); // Whole line of #####
+  const halfLine = chalk.hex(color)('#'.repeat(5)); // Line of ###
+  const space = ' '.repeat(7); // Empty spaces
 
   console.log(`
     ${wholeLine}
